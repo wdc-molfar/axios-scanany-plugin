@@ -45,15 +45,15 @@ module.exports = {
 
 	rules:[
 		{
-			name: ["@axios"],
+			name: ["axios"],
 			_execute: engineAxios
 		},
 		{
-			name: ["@fetch"],
+			name: ["fetch"],
 			_execute: fetch
 		},
 		{
-			name: ["@request"],
+			name: ["request"],
 			_execute: request
 		},
 		
